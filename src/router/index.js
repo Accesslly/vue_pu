@@ -9,7 +9,12 @@ Vue.use(VueRouter)
       path:'/home',
       name:'Home',
       component: () => import('../views/Home/Home.vue'),
-    }
+    },
+    {
+      path:'/message',
+      name:'Message',
+      component: () => import('../views/Message/Message.vue'),
+    },
 ];
 
 const router = new VueRouter({

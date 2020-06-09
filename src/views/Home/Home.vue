@@ -425,7 +425,7 @@ export default {
     margin-top: 15px;
 }
 .organization-bottom{
-    box-shadow:rgba(0,0,0,.3) 0px 0px 2px;
+    box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
     width: 300px;
     height: 80px;
     margin-left: 10px;
@@ -478,7 +478,7 @@ export default {
     width: 140px;
     margin-left: 5px;
     margin-top: 5px;
-    box-shadow:rgba(0,0,0,.3) 0px 0px 2px;
+    box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
 }
 .job1-title{
     font-size: 13px;
@@ -505,7 +505,7 @@ export default {
     height: 60px;
     width: 140px;
     margin: 5px;
-    box-shadow:rgba(0,0,0,.3) 0px 0px 2px;
+    box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
 }
 .job2-title{
     font-size: 13px;
@@ -539,7 +539,7 @@ export default {
     width: 140px;
     margin-left: 5px;
     margin-top: 5px;
-    box-shadow:rgba(0,0,0,.3) 0px 0px 2px;
+    box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
 }
 .job3-title{
     font-size: 13px;
@@ -566,7 +566,7 @@ export default {
     height: 60px;
     width: 140px;
     margin: 5px;
-    box-shadow:rgba(139, 138, 138, 0.3) 0px 0px 2px;
+    box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
 }
 .job4-title{
     font-size: 13px;
