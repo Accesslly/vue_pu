@@ -20,7 +20,7 @@
         <!-- 兼职实习 -->
         <div class="practice">
             <div class="practice-logo">
-                <img src="../../assets/image/兼职学习.png" alt="兼职实习"><br>
+                <img class="practice-image" src="../../assets/image/兼职学习.png" alt="兼职实习"><br>
             </div>
             <div class="practice-title">
                 <p>兼职实习</p>
@@ -30,7 +30,7 @@
         <!-- 学分申请 -->
         <div class="application">
             <div class="application-logo">
-                <img src="../../assets/image/学分申请.png" alt="学分申请"><br>
+                <img class="application-image" src="../../assets/image/学分申请.png" alt="学分申请"><br>
             </div>
             <div class="application-title">
                 <p>学分申请</p>
@@ -40,7 +40,7 @@
         <!-- 我的学分 -->
         <div class="credit">
             <div class="credit-logo">
-                <img src="../../assets/image/我的学分.png" alt="我的学分"><br>
+                <img class="credit-image" src="../../assets/image/我的学分.png" alt="我的学分"><br>
             </div>
             <div class="credit-title">
                 <p>我的学分</p>
@@ -50,7 +50,7 @@
         <!-- 活动日历 -->
         <div class="activity">
             <div class="activity-logo">
-                <img src="../../assets/image/活动日历.png" alt="活动日历"><br>
+                <img class="activity-image" src="../../assets/image/活动日历.png" alt="活动日历"><br>
             </div>
             <div class="activity-title">
                 <p>活动日历</p>
@@ -60,7 +60,7 @@
         <!-- 部落 -->
         <div class="tribe">
             <div class="tribe-logo">
-                <img src="../../assets/image/部落 .png" alt="部落"><br>
+                <img class="tribe-image" src="../../assets/image/部落 .png" alt="部落"><br>
             </div>
             <div class="tribe-title">
                 <p>部落</p>
@@ -71,7 +71,7 @@
         <!-- 福利中心 -->
         <div class="welfare">
             <div class="welfare-logo">
-                <img src="../../assets/image/福利中心.png" alt="福利中心"><br>
+                <img class="welfare-image" src="../../assets/image/福利中心.png" alt="福利中心"><br>
             </div>
             <div class="welfare-title">
                 <p>福利中心</p>
@@ -81,7 +81,7 @@
         <!-- 聚裂商城 -->
         <div class="mall">
             <div class="mall-logo">
-                <img src="../../assets/image/聚裂商城.png" alt="聚裂商城"><br>
+                <img class="mall-image" src="../../assets/image/聚裂商城.png" alt="聚裂商城"><br>
             </div>
             <div class="mall-title">
                 <p>聚裂商城</p>
@@ -91,7 +91,7 @@
          <!-- 更多应用 -->
         <div class="more">
             <div class="more-logo">
-                <img src="../../assets/image/更多应用.png" alt="更多应用"><br>
+                <img class="more-image" src="../../assets/image/更多应用.png" alt="更多应用"><br>
             </div>
             <div class="more-title">
                 <p>更多应用</p>
@@ -260,6 +260,9 @@ export default {
     margin-left: 4px;
     background-color:#f4f2df;
 }
+.practice-image{
+    margin-top: 7px;
+}
 .practice-title{
     font-size: 1px;
     margin-top: 5px;
@@ -275,6 +278,9 @@ export default {
     border-radius: 50%;
     margin-left: 4px;
     background-color:#c3e7fa;
+}
+.application-image{
+    margin-top: 7px;
 }
 .application-title{
     font-size: 1px;
@@ -292,6 +298,9 @@ export default {
     margin-left: 4px;
     background-color:#f4f2df;
 }
+.credit-image{
+    margin-top: 7px;
+}
 .credit-title{
     font-size: 1px;
     margin-top: 5px;
@@ -308,6 +317,9 @@ export default {
     margin-left: 4px;
     background-color:#c3e7fa;
 }
+.activity-image{
+    margin-top: 7px;
+}
 .activity-title{
     font-size: 1px;
     margin-top: 5px;
@@ -323,6 +335,9 @@ export default {
     border-radius: 50%;
     margin-left: 4px;
     background-color:#f4e9d6;
+}
+.tribe-image{
+    margin-top: 7px;
 }
 .tribe-title{
     font-size: 1px;
@@ -346,6 +361,9 @@ export default {
     margin-left: 4px;
     background-color:#f9e7e9;
 }
+.welfare-image{
+    margin-top: 7px;
+}
 .welfare-title{
     font-size: 1px;
     margin-top: 5px;
@@ -362,6 +380,9 @@ export default {
     margin-left: 4px;
     background-color:#f9e7e9;
 }
+.mall-image{
+    margin-top: 7px;
+}
 .mall-title{
     font-size: 1px;
     margin-top: 5px;
@@ -377,6 +398,9 @@ export default {
     border-radius: 50%;
     margin-left: 4px;
     background-color:#f4f2df;
+}
+.more-image{
+    margin-top: 7px;
 }
 .more-title{
     font-size: 1px;
@@ -441,8 +465,11 @@ export default {
 .time{
     font-size: 7px;
     color: #bfbfbf;
+    margin-left: -10px;
+    margin-top: -5px;
 }
 .people{
+    margin-left: -40px;
     font-size: 7px;
     color: #bfbfbf;
 }
@@ -630,6 +657,7 @@ export default {
 .headlines-information1{
     width: 330px;
     height: 100px;
+    margin-top: -20px;
     display: flex;
 }
 .headlines-title1{
@@ -647,6 +675,7 @@ export default {
     margin-left: 130px;
 }
 .headlines-information2{
+    margin-top: -20px;
     width: 330px;
     height: 100px;
     display: flex;
