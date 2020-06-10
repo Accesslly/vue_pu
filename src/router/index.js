@@ -15,6 +15,11 @@ Vue.use(VueRouter)
       name:'Message',
       component: () => import('../views/Message/Message.vue'),
     },
+    {
+      path:'/talk',
+      name:'Talk',
+      component: () => import('../views/Message/Talk.vue'),
+    },
 ];
 
 const router = new VueRouter({
