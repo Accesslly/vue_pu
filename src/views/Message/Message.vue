@@ -1,14 +1,9 @@
 <template>
 <div> 
-    <!-- 顶部导航栏      -->
-    <div class="nav">
-        <div class="nav-message"><p>消息</p></div>
-        <div class="nav-handle"><p>待办</p></div>
-        <div class="nav-dynamic"><p>动态</p></div>
-    </div>
-    
-
-    <!-- 通知 -->
+    <!-- 顶部 -->
+    <van-tabs v-model="active">
+        <van-tab title="消息">
+            <!-- 通知 -->
     <div class="notice">
         <div class="notice-image">
             <img src="../../assets/image/通知.png" alt="">
@@ -62,6 +57,21 @@
             <p>2019-03-25  09:50</p>
         </div>
     </div>
+        </van-tab>
+        <van-tab title="待办">内容 2</van-tab>
+        <van-tab title="动态">内容 3</van-tab>
+    </van-tabs>
+    
+     <!-- 底部导航栏 -->
+    <div>
+       <van-tabbar v-model="active" active-color="#f86807" inactive-color="#dfdfdf">
+            <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
+            <van-tabbar-item icon="aim">活动</van-tabbar-item>
+            <van-tabbar-item icon="comment-o">消息</van-tabbar-item>
+            <van-tabbar-item icon="apps-o">广场</van-tabbar-item>
+            <van-tabbar-item icon="contact">我的</van-tabbar-item>
+        </van-tabbar>
+    </div>
 </div>
 </template>
 
@@ -77,23 +87,6 @@ export default {
     height: 50px;
     display: flex;
     margin-left: 15px;
-}
-.nav-message{
-    margin-left: 10px;
-    font-weight: bold;
-    font-size: 15px;
-}
-.nav-handle{
-    font-size: 13px;
-    margin-left: 20px;
-    margin-top: 5px;
-    color: #bfbfbf;
-}
-.nav-dynamic{
-    font-size: 13px;
-    margin-left: 20px;
-    margin-top: 5px;
-    color: #bfbfbf;
 }
 .notice{
     width: 330px;
