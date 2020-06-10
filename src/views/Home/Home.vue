@@ -167,7 +167,7 @@
     <!-- 高校头条 -->
     <div class="headlines">
         <div class="headlines-top">
-            <div class="headlines-title"><p>高校头条</p></div>
+            <div class="headlines-titles"><p>高校头条</p></div>
             <div class="headlines-more"><img src="../../assets/image/更多.png" alt="更多"></div>
         </div>
         <div class="headlines-information">
@@ -417,6 +417,7 @@ export default {
     display: flex;
 }
 .organization-title{
+    font-weight: bold;
     font-size: 15px;
     margin-left: 10px;
 }
@@ -460,6 +461,7 @@ export default {
     display: flex;
 }
 .job-title{
+    font-weight: bold;
     font-size: 15px;
     margin-left: 10px;
 }
@@ -597,8 +599,9 @@ export default {
 .headlines-top{
     display: flex;
 }
-.headlines-title{
+.headlines-titles{
     font-size: 15px;
+    font-weight: bold;
     margin-left: 10px;
 }
 .headlines-more{
@@ -611,6 +614,7 @@ export default {
     display: flex;
 }
 .headlines-title{
+    margin-left: 10px;
     font-size: 13px;
 }
 .headlines-author{
