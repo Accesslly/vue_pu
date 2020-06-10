@@ -25,6 +25,11 @@ Vue.use(VueRouter)
       name:'Activity',
       component: () => import('../views/Activity/Activity.vue'),
     },
+    {
+      path:'/square',
+      name:'Suqare',
+      component: () => import('../views/Square/Square.vue'),
+    },
 ];
 
 const router = new VueRouter({
