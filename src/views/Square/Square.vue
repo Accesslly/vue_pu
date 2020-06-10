@@ -58,6 +58,17 @@
             <img class="img3" src="../../assets/image/3.png" alt="">
         </div>
     </div>
+
+     <!-- 底部导航栏 -->
+    <div>
+       <van-tabbar v-model="active" active-color="#f86807" inactive-color="#dfdfdf">
+            <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
+            <van-tabbar-item icon="aim">活动</van-tabbar-item>
+            <van-tabbar-item icon="comment-o">消息</van-tabbar-item>
+            <van-tabbar-item icon="apps-o">广场</van-tabbar-item>
+            <van-tabbar-item icon="contact">我的</van-tabbar-item>
+        </van-tabbar>
+    </div>
 </div>
 </template>
 
