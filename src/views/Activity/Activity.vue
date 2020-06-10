@@ -205,6 +205,7 @@ export default {
     background-color: #f94d05;
 }
 .organization-fraction-title{
+    color: #FFFFFF;
     font-size: 10px;
 }
 .organization-bottom1{
@@ -246,6 +247,7 @@ export default {
     background-color: #f94d05;
 }
 .organization-fraction-title1{
+    color: #FFFFFF;
     font-size: 10px;
 }
 .organization-bottom2{
@@ -288,6 +290,7 @@ export default {
     background-color: #f94d05;
 }
 .organization-fraction-title2{
+    color: #FFFFFF;
     font-size: 10px;
 }
 .organization-bottom3{
@@ -330,6 +333,7 @@ export default {
     background-color: #f94d05;
 }
 .organization-fraction-title3{
+    color: #FFFFFF;
     font-size: 10px;
 }
 </style>
