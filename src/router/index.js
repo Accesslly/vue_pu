@@ -40,6 +40,11 @@ Vue.use(VueRouter)
       name:'Set',
       component: () => import('../views/My/Set.vue'),
     },
+    {
+      path:'/person',
+      name:'Person',
+      component: ()=> import('../views/My/Person.vue'),
+    }
 ];
 
 const router = new VueRouter({
