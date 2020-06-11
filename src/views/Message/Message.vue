@@ -1,9 +1,14 @@
 <template>
 <div> 
-    <!-- 顶部 -->
-    <van-tabs v-model="active">
-        <van-tab title="消息">
-            <!-- 通知 -->
+    <!-- 顶部标签 -->
+    <div class="nav">
+        <p :class="{ co: isShow }" @click="isShow = true" style="margin-left: 10px;">广场</p>
+        <p :class="{ co: !isShow }" @click="isShow = false" style="margin-left: 20px;">我的</p>
+        <p style="margin-left:20px;">动态</p>
+    </div>
+
+    <div v-if="isShow">
+    <!-- 通知 -->
     <div class="notice">
         <div class="notice-image">
             <img src="../../assets/image/通知.png" alt="">
@@ -57,10 +62,10 @@
             <p>2019-03-25  09:50</p>
         </div>
     </div>
-        </van-tab>
-        <van-tab title="待办">
-             <!-- 活动        -->
-    <div class="activity">
+    </div>
+
+    <div v-if="!isShow">
+        <div class="activity">
         <p class="activity-title">活动</p>
         <div class="a">
         <div class="audit">
@@ -133,26 +138,18 @@
         </div>
         </div>
     </div>
-        </van-tab>
-        <van-tab title="动态">内容 3</van-tab>
-    </van-tabs>
-    
-     <!-- 底部导航栏 -->
-    <div>
-       <van-tabbar v-model="active" active-color="#f86807" inactive-color="#dfdfdf">
-            <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
-            <van-tabbar-item icon="aim">活动</van-tabbar-item>
-            <van-tabbar-item icon="comment-o">消息</van-tabbar-item>
-            <van-tabbar-item icon="apps-o">广场</van-tabbar-item>
-            <van-tabbar-item icon="contact">我的</van-tabbar-item>
-        </van-tabbar>
     </div>
 </div>
 </template>
 
 <script>
 export default {
-    
+     data() {
+    return {
+      isShow: true
+    };
+  },
+  methods: {}
 }
 </script>
 
