@@ -30,6 +30,11 @@ Vue.use(VueRouter)
       name:'Suqare',
       component: () => import('../views/Square/Square.vue'),
     },
+    {
+      path:'/my',
+      name:'My',
+      component: () => import('../views/My/My.vue'),
+    },
 ];
 
 const router = new VueRouter({
