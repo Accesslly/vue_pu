@@ -35,6 +35,11 @@ Vue.use(VueRouter)
       name:'My',
       component: () => import('../views/My/My.vue'),
     },
+    {
+      path:'/set',
+      name:'Set',
+      component: () => import('../views/My/Set.vue'),
+    },
 ];
 
 const router = new VueRouter({

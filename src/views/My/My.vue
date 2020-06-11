@@ -125,7 +125,7 @@
             <p class="value-title">我的U值</p>
             <img class="value-icon" src="../../assets/image/问号.png" alt="">
         </div>
-        <van-divider />
+        <hr>    
         <img src="../../assets/image/雷达.png" alt="">
         <img src="../../assets/image/综合.png" alt="">
     </div>
