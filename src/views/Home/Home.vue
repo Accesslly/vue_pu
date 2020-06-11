@@ -12,7 +12,11 @@
 
     <!-- 图片 -->
     <div class="image">
-        <img src="../../assets/image/轮播.png" alt="轮播">
+       <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
+            <van-swipe-item><img src="../../assets/image/轮播.png" alt=""></van-swipe-item>
+            <van-swipe-item><img src="../../assets/image/轮播1.png" alt=""></van-swipe-item>
+            <van-swipe-item><img src="../../assets/image/轮播2.png" alt=""></van-swipe-item>
+        </van-swipe>
     </div>
 
     <!-- 功能 -->
@@ -112,15 +116,12 @@
             <div class="organization-title"><p>本校活动</p></div>
             <div class="organization-more"><img src="../../assets/image/更多.png" alt="更多"></div>
         </div>
+        <div class="bigd">
         <div class="organization-bottom">
-            <div class="organization-information">
-                <p class="class">机设1911思想学习</p>
-                <p class="time">2020.06.09  线上</p>
-                <p class="people">1参与人数</p>
-            </div>
-            <div class="organization-image">
-                <img src="../../assets/image/青年大学习.png" alt="青年大学习">
-            </div>
+            <img src="../../assets/image/ac1.png" alt="">
+            <img src="../../assets/image/ac2.png" alt="">
+            <img src="../../assets/image/ac3.png" alt="">
+        </div>
         </div>
     </div>
 
@@ -239,7 +240,7 @@ export default {
 }
 .image{
     width: 330px;
-    height: 90px;
+    height: 100px;
     margin-left: 10px;
 }
 .feature{
@@ -449,11 +450,17 @@ export default {
     margin-left: 230px;
     margin-top: 15px;
 }
+.bigd{
+    overflow-x: scroll;
+    width: 300px;
+    height: 80px;
+}
 .organization-bottom{
     box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
     width: 300px;
     height: 80px;
     margin-left: 10px;
+    float: left;
     display: flex;
 }
 .organization-information{

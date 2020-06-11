@@ -468,4 +468,9 @@ export default {
     font-size: 1px;
     margin-top: 5px;
 }
+.co{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
 </style>
