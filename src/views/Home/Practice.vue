@@ -45,7 +45,7 @@
         </div>
     </div>
      <div class="kind">
-        <div class="money">
+        <div class="money" @click="raiders">
             <div class="money-title">
                  <p class="money-title1">求职攻略</p>
                  <p class="money-title2">最新干货</p>
@@ -112,6 +112,9 @@ export default {
         },
         city(){
             this.$router.push("/city")
+        },
+        raiders(){
+            this.$router.push('/raiders')
         }
     }
 }
