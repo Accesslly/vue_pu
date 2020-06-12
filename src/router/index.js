@@ -66,6 +66,11 @@ Vue.use(VueRouter)
       name:'Practice',
       component: () => import('../views/Home/Practice.vue'),
     },
+    {
+      path:'/city',
+      name:'City',
+      component: () => import('../views/Home/City.vue'),
+    },
 ];
 
 const router = new VueRouter({

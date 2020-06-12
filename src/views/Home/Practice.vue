@@ -11,7 +11,7 @@
 
     <!-- 搜索 -->
     <div class="search">
-        <div class="city">
+        <div class="city" @click="city">
             <p class="city-title">苏州</p>
             <img class="city-pull" src="../../assets/image/下拉1.png" alt="">
         </div>
@@ -109,6 +109,9 @@ export default {
     methods: {
         back(){
             this.$router.push("/home")
+        },
+        city(){
+            this.$router.push("/city")
         }
     }
 }
