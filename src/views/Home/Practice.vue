@@ -15,7 +15,7 @@
             <p class="city-title">苏州</p>
             <img class="city-pull" src="../../assets/image/下拉1.png" alt="">
         </div>
-        <van-search class="search-border" shape="round" v-model="value" placeholder="搜索职位"/>
+        <van-search @click="search" class="search-border" shape="round" v-model="value" placeholder="搜索职位"/>
     </div>
 
     <!-- 图片 -->
@@ -115,6 +115,9 @@ export default {
         },
         raiders(){
             this.$router.push('/raiders')
+        },
+        search(){
+            this.$router.push('/search')
         }
     }
 }

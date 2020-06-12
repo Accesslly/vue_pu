@@ -76,6 +76,11 @@ Vue.use(VueRouter)
       name:'Raiders',
       component: () => import('../views/Home/Raiders.vue'),
     },
+    {
+      path:'/search',
+      name:'Search',
+      component: () => import('../views/Home/Search.vue'),
+    },
 ];
 
 const router = new VueRouter({
