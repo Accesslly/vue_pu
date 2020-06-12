@@ -129,7 +129,7 @@
     <div class="job">
          <div class="job-top">
             <div class="job-title"><p>兼职实习</p></div>
-            <div class="job-more"><img src="../../assets/image/更多.png" alt="更多"></div>
+            <div class="job-more"><img @click="more" src="../../assets/image/更多.png" alt="更多"></div>
         </div>
         <div class="job-bottom">
             <div class="job1">
@@ -213,7 +213,11 @@
 
 <script>
 export default {
-    
+    methods: {
+        more(){
+            this.$router.push("/practice")
+        }
+    }
 }
 </script>
 

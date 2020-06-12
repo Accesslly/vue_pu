@@ -5,7 +5,7 @@
     <div class="top">
         <!-- 返回 -->
         <div class="top-return">
-            <img @click="back" class="return" src="../../assets/image/返回2.png" alt="">
+            <img @click="back" class="return" src="../../assets/image/返回.png" alt="">
         </div>
         <!-- 头像 -->
         <div class="top-avatar">
@@ -65,7 +65,7 @@ export default {
 }
 .return{
     margin-left: -320px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .top-avatar{
     width: 100%;

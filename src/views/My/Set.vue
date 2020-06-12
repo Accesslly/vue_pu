@@ -3,7 +3,7 @@
     <!-- 顶部     -->
     <div class="top">
     <div class="nav">
-        <img @click="back" class="nav-return" src="../../assets/image/返回1.png" alt="">
+        <img @click="back" class="nav-return" src="../../assets/image/返回.png" alt="">
         <p class="nav-title">设置</p>
     </div>
     <div class="line"><hr></div>
@@ -95,7 +95,7 @@ export default {
 }
 .nav-return{
     margin-left: 0px;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 .nav-title{
     margin-left: 140px;

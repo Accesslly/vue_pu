@@ -13,7 +13,7 @@ Vue.use(VueRouter)
     {
       path: '/',
       name: 'Layout',
-      meta: {title:'底部导航栏'},
+      meta: {title:'首页底部导航栏'},
       component: BottomNav,
       redirect:'home',
       children:[
@@ -44,6 +44,8 @@ Vue.use(VueRouter)
     },
       ]
     },
+
+
     {
       path:'/talk',
       name:'Talk',
@@ -58,7 +60,12 @@ Vue.use(VueRouter)
       path:'/person',
       name:'Person',
       component: ()=> import('../views/My/Person.vue'),
-    }
+    },
+    {
+      path:'/practice',
+      name:'Practice',
+      component: () => import('../views/Home/Practice.vue'),
+    },
 ];
 
 const router = new VueRouter({
