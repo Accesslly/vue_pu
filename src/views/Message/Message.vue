@@ -50,7 +50,7 @@
             <p class="game-title">斯坦福CGCP学生写作竞赛</p>
         </div>
     </div>
-    <div class="talk">
+    <div class="talk" @click="talk">
         <div class="talk-image">
             <img src="../../assets/image/人物.png" alt="">
         </div>
@@ -149,7 +149,11 @@ export default {
       isShow: true
     };
   },
-  methods: {}
+  methods: {
+      talk(){
+          this.$router.push("/talk")
+      }
+  }
 }
 </script>
 

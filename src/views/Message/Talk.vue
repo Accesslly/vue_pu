@@ -3,7 +3,7 @@
     <!-- 返回   -->
     <div class="talk">
         <div class="talk-return">
-            <img src="../../assets/image/返回.png" alt="返回">
+            <img @click="back" src="../../assets/image/返回.png" alt="返回">
         </div>
         <div class="talk-title">
             <p>私信</p>
@@ -44,7 +44,11 @@
 
 <script>
 export default {
-    
+    methods: {
+        back(){
+            this.$router.push("/message")
+        }
+    },
 }
 </script>
 

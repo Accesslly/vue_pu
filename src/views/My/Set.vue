@@ -3,7 +3,7 @@
     <!-- 顶部     -->
     <div class="top">
     <div class="nav">
-        <img class="nav-return" src="../../assets/image/返回1.png" alt="">
+        <img @click="back" class="nav-return" src="../../assets/image/返回1.png" alt="">
         <p class="nav-title">设置</p>
     </div>
     <div class="line"><hr></div>
@@ -75,7 +75,11 @@
 
 <script>
 export default {
-    
+    methods: {
+        back(){
+            this.$router.push("/my")
+        }
+    }
 }
 </script>
 

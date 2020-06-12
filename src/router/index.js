@@ -1,11 +1,23 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
+import BottomNav from '../views/Home/BottomNav.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
     {
+      path:'/bottomnav',
+      name:'BottomNav',
+      component: () => import('../views/Home/BottomNav.vue')
+    },
+    {
+      path: '/',
+      name: 'Layout',
+      meta: {title:'底部导航栏'},
+      component: BottomNav,
+      redirect:'home',
+      children:[
+         {
       path:'/home',
       name:'Home',
       component: () => import('../views/Home/Home.vue'),
@@ -15,12 +27,7 @@ Vue.use(VueRouter)
       name:'Message',
       component: () => import('../views/Message/Message.vue'),
     },
-    {
-      path:'/talk',
-      name:'Talk',
-      component: () => import('../views/Message/Talk.vue'),
-    },
-    {
+     {
       path:'/activity',
       name:'Activity',
       component: () => import('../views/Activity/Activity.vue'),
@@ -34,6 +41,13 @@ Vue.use(VueRouter)
       path:'/my',
       name:'My',
       component: () => import('../views/My/My.vue'),
+    },
+      ]
+    },
+    {
+      path:'/talk',
+      name:'Talk',
+      component: () => import('../views/Message/Talk.vue'),
     },
     {
       path:'/set',

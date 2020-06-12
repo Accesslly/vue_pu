@@ -3,12 +3,12 @@
     <!-- 顶部      -->
     <div class="top">
         <div class="click">
-            <div class="set"><img class="set-image" src="../../assets/image/设置.png" alt=""></div>
+            <div class="set" @click="set"><img class="set-image" src="../../assets/image/设置.png" alt=""></div>
             <div class="code"><img class="set-image" src="../../assets/image/二维码1.png" alt=""></div>
         </div>
 
         <div class="person">
-            <van-image round width="60px" height="60px" src="https://img.yzcdn.cn/vant/cat.jpeg"/>
+            <van-image @click="person" round width="60px" height="60px" src="https://img.yzcdn.cn/vant/cat.jpeg"/>
             <p class="person-name">张三_1802783112</p>
             <p class="person-number">UID:9147786</p>
             <img src="../../assets/image/fen.png" alt="">
@@ -130,23 +130,22 @@
         <img src="../../assets/image/综合.png" alt="">
     </div>
 
-     <!-- 底部导航栏 -->
-    <div>
-       <van-tabbar v-model="active" active-color="#f86807" inactive-color="#dfdfdf">
-            <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
-            <van-tabbar-item icon="aim">活动</van-tabbar-item>
-            <van-tabbar-item icon="comment-o">消息</van-tabbar-item>
-            <van-tabbar-item icon="apps-o">广场</van-tabbar-item>
-            <van-tabbar-item icon="contact">我的</van-tabbar-item>
-        </van-tabbar>
-    </div>
     
 </div>
 </template>
 
 <script>
 export default {
-    
+   data() {
+  },
+  methods: {
+      set(){
+          this.$router.push("/set")
+      },
+      person(){
+          this.$router.push("/person")
+      }
+  }
 }
 </script>
 

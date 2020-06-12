@@ -5,7 +5,7 @@
     <div class="top">
         <!-- 返回 -->
         <div class="top-return">
-            <img class="return" src="../../assets/image/返回2.png" alt="">
+            <img @click="back" class="return" src="../../assets/image/返回2.png" alt="">
         </div>
         <!-- 头像 -->
         <div class="top-avatar">
@@ -45,7 +45,11 @@
 
 <script>
 export default {
-    
+    methods: {
+        back(){
+            this.$router.push("/my")
+        }
+    }
 }
 </script>
 
