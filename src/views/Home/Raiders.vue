@@ -108,6 +108,7 @@ export default {
  .choose-title{
      margin-left: 115px;
      margin-top: 5px;
+     font-weight: bold;
  }
  .choose-image{
      margin-left: 120px;

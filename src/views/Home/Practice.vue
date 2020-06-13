@@ -74,7 +74,7 @@
             <p class="fire-title">热门推荐</p>
         </div>
         <van-divider />
-        <div class="job">
+        <div class="job" @click="job">
             <div class="job-left">
                 <p class="job-title">南京家教兼职</p>
                 <p class="job-company">广州学求易教育咨询有限公司</p>
@@ -118,6 +118,9 @@ export default {
         },
         search(){
             this.$router.push('/search')
+        },
+        job(){
+            this.$router.push('/job')
         }
     }
 }

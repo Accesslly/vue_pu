@@ -81,6 +81,11 @@ Vue.use(VueRouter)
       name:'Search',
       component: () => import('../views/Home/Search.vue'),
     },
+    {
+      path:'/job',
+      name:'Job',
+      component: () => import('../views/Home/Job.vue'),
+    },
 ];
 
 const router = new VueRouter({
