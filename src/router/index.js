@@ -91,6 +91,11 @@ Vue.use(VueRouter)
       name:'Application',
       component: () => import('../views/Home/Application.vue'),
     },
+    {
+      path:'/credit',
+      name:'Credit',
+      component: () => import('../views/Home/Credit.vue'),
+    },
 ];
 
 const router = new VueRouter({

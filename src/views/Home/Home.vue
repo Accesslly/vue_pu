@@ -42,7 +42,7 @@
         </div>
 
         <!-- 我的学分 -->
-        <div class="credit">
+        <div class="credit" @click="credit">
             <div class="credit-logo">
                 <img class="credit-image" src="../../assets/image/我的学分.png" alt="我的学分"><br>
             </div>
@@ -219,6 +219,9 @@ export default {
         },
         application(){
             this.$router.push('/application')
+        },
+        credit(){
+            this.$router.push('/credit')
         }
     }
 }
