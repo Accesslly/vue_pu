@@ -96,6 +96,11 @@ Vue.use(VueRouter)
       name:'Credit',
       component: () => import('../views/Home/Credit.vue'),
     },
+    {
+      path:'/date',
+      name:'Date',
+      component: () => import('../views/Home/Date.vue'),
+    },
 ];
 
 const router = new VueRouter({

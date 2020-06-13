@@ -52,7 +52,7 @@
         </div>
 
         <!-- 活动日历 -->
-        <div class="activity">
+        <div class="activity" @click="date">
             <div class="activity-logo">
                 <img class="activity-image" src="../../assets/image/活动日历.png" alt="活动日历"><br>
             </div>
@@ -222,6 +222,9 @@ export default {
         },
         credit(){
             this.$router.push('/credit')
+        },
+        date(){
+            this.$router.push('/date')
         }
     }
 }
