@@ -86,6 +86,11 @@ Vue.use(VueRouter)
       name:'Job',
       component: () => import('../views/Home/Job.vue'),
     },
+    {
+      path:'/application',
+      name:'Application',
+      component: () => import('../views/Home/Application.vue'),
+    },
 ];
 
 const router = new VueRouter({

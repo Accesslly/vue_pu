@@ -22,7 +22,7 @@
     <!-- 功能 -->
     <div class="feature">
         <!-- 兼职实习 -->
-        <div class="practice">
+        <div class="practice" @click="more" >
             <div class="practice-logo">
                 <img class="practice-image" src="../../assets/image/兼职学习.png" alt="兼职实习"><br>
             </div>
@@ -32,7 +32,7 @@
         </div>
 
         <!-- 学分申请 -->
-        <div class="application">
+        <div class="application" @click="application">
             <div class="application-logo">
                 <img class="application-image" src="../../assets/image/学分申请.png" alt="学分申请"><br>
             </div>
@@ -129,7 +129,7 @@
     <div class="job">
          <div class="job-top">
             <div class="job-title"><p>兼职实习</p></div>
-            <div class="job-more"><img @click="more" src="../../assets/image/更多.png" alt="更多"></div>
+            <div class="job-more"><img src="../../assets/image/更多.png" alt="更多"></div>
         </div>
         <div class="job-bottom">
             <div class="job1">
@@ -216,6 +216,9 @@ export default {
     methods: {
         more(){
             this.$router.push("/practice")
+        },
+        application(){
+            this.$router.push('/application')
         }
     }
 }
