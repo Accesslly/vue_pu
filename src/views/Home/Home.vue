@@ -62,7 +62,7 @@
         </div>
 
         <!-- 部落 -->
-        <div class="tribe">
+        <div class="tribe" @click="tribe">
             <div class="tribe-logo">
                 <img class="tribe-image" src="../../assets/image/部落 .png" alt="部落"><br>
             </div>
@@ -225,6 +225,9 @@ export default {
         },
         date(){
             this.$router.push('/date')
+        },
+        tribe(){
+            this.$router.push('/tribe')
         }
     }
 }

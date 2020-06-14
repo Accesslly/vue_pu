@@ -101,6 +101,11 @@ Vue.use(VueRouter)
       name:'Date',
       component: () => import('../views/Home/Date.vue'),
     },
+    {
+      path:'/tribe',
+      name:'Tribe',
+      component: () => import('../views/Home/Tribe.vue'),
+    },
 ];
 
 const router = new VueRouter({
