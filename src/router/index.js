@@ -106,6 +106,11 @@ Vue.use(VueRouter)
       name:'Tribe',
       component: () => import('../views/Home/Tribe.vue'),
     },
+    {
+      path:'/survey',
+      name:'Survey',
+      component: () => import('../views/Home/Survey.vue'),
+    },
 ];
 
 const router = new VueRouter({

@@ -13,7 +13,7 @@
     <!-- 图片 -->
     <div class="image">
        <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
-            <van-swipe-item><img src="../../assets/image/轮播.png" alt=""></van-swipe-item>
+            <van-swipe-item><img @click="survey" src="../../assets/image/轮播.png" alt=""></van-swipe-item>
             <van-swipe-item><img src="../../assets/image/轮播1.png" alt=""></van-swipe-item>
             <van-swipe-item><img src="../../assets/image/轮播2.png" alt=""></van-swipe-item>
         </van-swipe>
@@ -228,7 +228,10 @@ export default {
         },
         tribe(){
             this.$router.push('/tribe')
-        }
+        },
+        survey(){
+            this.$router.push('/survey')
+        }   
     }
 }
 </script>
