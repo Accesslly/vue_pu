@@ -116,6 +116,11 @@ Vue.use(VueRouter)
       name:'Test',
       component: () => import('../views/Home/Test.vue'),
     },
+    {
+      path:'/report',
+      name:'Report',
+      component: () => import('../views/Home/Report.vue'),
+    },
 ];
 
 const router = new VueRouter({

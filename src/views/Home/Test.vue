@@ -29,7 +29,7 @@
             <p class="button-title">下一页</p>
         </div>
         <div class="introduction">
-            <p class="introduction-title">举报</p>
+            <p @click="report" class="introduction-title">举报</p>
             <p class="introduction-title1">问卷网提供支持</p>
             <p class="introduction-title2">关闭</p>
         </div>
@@ -47,6 +47,9 @@ export default {
     methods: {
         back(){
             this.$router.push('survey')
+        },
+        report(){
+            this.$router.push('/report')
         }
     },
 }
