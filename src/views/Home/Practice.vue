@@ -15,11 +15,12 @@
             <p class="city-title">苏州</p>
             <img class="city-pull" src="../../assets/image/下拉1.png" alt="">
         </div>
-        <van-search @click="search" class="search-border" shape="round" v-model="value" placeholder="搜索职位"/>
+        <div class="city-search" @click="search"><img src="../../assets/image/实习搜索.png" alt=""></div>
+        
     </div>
 
     <!-- 图片 -->
-    <img class="image" src="../../assets/image/兼职岗位.png" alt="">
+    <img class="image"  src="../../assets/image/兼职岗位.png" alt="">
 
     <!-- 兼职 -->
     <div class="kind">
@@ -163,7 +164,11 @@ export default {
  }
  .city-pull{
      margin-left: 5px;
+     margin-top: 20px;
+ }
+ .city-search{
      margin-top: 15px;
+     margin-left: 60px;
  }
  .search-border{
      margin-left: 60px;

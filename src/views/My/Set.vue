@@ -283,7 +283,7 @@ export default {
     width: 300px;
     height: 30px;
     margin-top: 10px;
-    margin-left: 15px;
+    margin-left: 30px;
     border: 1px solid #bfbfbf;
 }
 .button-title{

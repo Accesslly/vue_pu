@@ -21,9 +21,7 @@
         <div class="border"></div>
         <p class="title">全部</p>
         <div class="border1"></div>
-        <div class="border2"></div>
-        <img class="search-icon" src="../../assets/image/搜索.png" alt="">
-        <p class="title1">搜索</p>
+       <div class="border2"><img src="../../assets/image/搜索.png" alt=""></div>
     </div>
 
     <!-- 测试 -->
@@ -101,10 +99,8 @@ export default {
  .border2{
      width: 100px;
      height: 28px;
-     border-radius: 25px;
-     margin-left: 150px;
-     margin-top:25px;
-     border: 1px solid #bfbfbf;
+     margin-left: 160px;
+     margin-top:20px;
  }
  .search-icon{
      margin-top: 25px;
