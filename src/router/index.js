@@ -121,6 +121,11 @@ Vue.use(VueRouter)
       name:'Report',
       component: () => import('../views/Home/Report.vue'),
     },
+    {
+      path:'/punch',
+      name:'Punch',
+      component: () => import('../views/Home/Punch.vue'),
+    },
 ];
 
 const router = new VueRouter({

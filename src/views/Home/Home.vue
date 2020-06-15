@@ -15,7 +15,7 @@
        <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
             <van-swipe-item><img @click="survey" src="../../assets/image/轮播.png" alt=""></van-swipe-item>
             <van-swipe-item><img src="../../assets/image/轮播1.png" alt=""></van-swipe-item>
-            <van-swipe-item><img src="../../assets/image/轮播2.png" alt=""></van-swipe-item>
+            <van-swipe-item><img @click="punch" src="../../assets/image/轮播2.png" alt=""></van-swipe-item>
         </van-swipe>
     </div>
 
@@ -231,7 +231,10 @@ export default {
         },
         survey(){
             this.$router.push('/survey')
-        }   
+        },
+        punch(){
+            this.$router.push('/punch')
+        }
     }
 }
 </script>
