@@ -271,7 +271,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#f4f2df;
+    background-color:#fef8eb;
 }
 .practice-image{
     margin-top: 7px;
@@ -290,7 +290,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#c3e7fa;
+    background-color:#ebf8fe;
 }
 .application-image{
     margin-top: 7px;
@@ -309,7 +309,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#f4f2df;
+    background-color:#fef8ec;
 }
 .credit-image{
     margin-top: 7px;
@@ -328,7 +328,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#c3e7fa;
+    background-color:#ebf8fe;
 }
 .activity-image{
     margin-top: 7px;
@@ -347,7 +347,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#f4e9d6;
+    background-color:#fdf5ef;
 }
 .tribe-image{
     margin-top: 7px;
@@ -372,7 +372,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#f9e7e9;
+    background-color:#ffefeb;
 }
 .welfare-image{
     margin-top: 7px;
@@ -391,7 +391,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#f9e7e9;
+    background-color:#ffefef;
 }
 .mall-image{
     margin-top: 7px;
@@ -410,7 +410,7 @@ export default {
     height: 40px;
     border-radius: 50%;
     margin-left: 4px;
-    background-color:#f4f2df;
+    background-color:#fef5f0;
 }
 .more-image{
     margin-top: 7px;

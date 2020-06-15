@@ -77,9 +77,6 @@ export default {
      margin-left: 120px;
      margin-top: 20px;
  }    
- .time{
-
- }
  .status{
      width: 40px;
      height: 20px;
