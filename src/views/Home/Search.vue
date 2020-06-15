@@ -269,6 +269,7 @@ export default {
 }
 .title{
     color: #FFFFFF;
+    padding-top: 10px;
     font-weight: bold;
 }
 </style>

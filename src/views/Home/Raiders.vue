@@ -134,7 +134,7 @@ export default {
      color: #bfbfbf;
  }
  .message-icon{
-     margin-top: 20px;
+     margin-top: 30px;
      margin-left: 20px;
  }
  .message-num{
