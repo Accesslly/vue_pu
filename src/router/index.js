@@ -111,6 +111,11 @@ Vue.use(VueRouter)
       name:'Survey',
       component: () => import('../views/Home/Survey.vue'),
     },
+    {
+      path:'/test',
+      name:'Test',
+      component: () => import('../views/Home/Test.vue'),
+    },
 ];
 
 const router = new VueRouter({

@@ -27,7 +27,7 @@
     </div>
 
     <!-- 测试 -->
-    <img src="../../assets/image/问卷1.png" alt="">
+    <img @click="test" src="../../assets/image/问卷1.png" alt="">
     <img src="../../assets/image/问卷2.png" alt="">
     <img src="../../assets/image/问卷3.png" alt="">
     <img src="../../assets/image/问卷4.png" alt="">
@@ -40,6 +40,9 @@ export default {
     methods: {
         back(){
             this.$router.push('/home')
+        },
+        test(){
+            this.$router.push('test')
         }
     },
 }
@@ -100,11 +103,11 @@ export default {
      height: 28px;
      border-radius: 25px;
      margin-left: 150px;
-     margin-top: 20px;
+     margin-top:25px;
      border: 1px solid #bfbfbf;
  }
  .search-icon{
-     margin-top: 20px;
+     margin-top: 25px;
      margin-left: -90px;
  }
  .title1{
