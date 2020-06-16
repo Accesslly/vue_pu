@@ -5,7 +5,9 @@
         <img class="top-return" @click="back" src="../../assets/image/返回.png" alt="">
         <p class="top-title">活动日历</p>
     </div>
-    <hr>  
+    <div class="xian">
+          <van-divider  :style="{ borderColor: '#b5b5b5' }" />
+             </div>
     <img src="../../assets/image/日历.png" alt="">
 
     <div class="organization-bottom">

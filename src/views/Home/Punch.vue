@@ -7,7 +7,9 @@
         <p class="top-title">健康打卡</p>
         <img class="top-refresh" src="../../assets/image/刷新.png" alt="">
     </div>
-    <hr>
+    <div class="xian">
+          <van-divider  :style="{ borderColor: '#b5b5b5' }" />
+             </div>
 
     <p class="time">2020-06-15</p>   
     <div class="status">

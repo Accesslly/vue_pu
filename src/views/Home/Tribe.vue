@@ -6,7 +6,9 @@
         <p class="top-title">部落</p>
         <img class="top-refresh" src="../../assets/image/搜索2.png" alt="">
     </div>
-    <hr>  
+    <div class="xian">
+          <van-divider  :style="{ borderColor: '#b5b5b5' }" />
+             </div>
 
     <!-- 明星部落榜 -->
     <p class="star">明星部落榜</p>

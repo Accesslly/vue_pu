@@ -126,6 +126,11 @@ Vue.use(VueRouter)
       name:'Punch',
       component: () => import('../views/Home/Punch.vue'),
     },
+    {
+      path:'/dynamic',
+      name:'Dynamic',
+      component: () => import('../views/Square/Dynamic.vue'),
+    },
 ];
 
 const router = new VueRouter({

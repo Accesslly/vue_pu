@@ -6,7 +6,9 @@
         <img @click="back" class="nav-return" src="../../assets/image/返回.png" alt="">
         <p class="nav-title">设置</p>
     </div>
-    <div class="line"><hr></div>
+   <div class="xian">
+          <van-divider  :style="{ borderColor: '#b5b5b5' }" />
+             </div>
     </div>
 
     <!-- 设置 -->

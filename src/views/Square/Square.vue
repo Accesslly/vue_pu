@@ -40,7 +40,7 @@
     </div>
 
     <!-- 论坛 -->
-    <div class="forum">
+    <div @click="dynamic" class="forum">
         <div class="forum1">
         <div><van-image class="forum-image" round src="https://img.yzcdn.cn/vant/cat.jpeg"/></div>
         <div class="forum-information">
@@ -94,7 +94,11 @@
 
 <script>
 export default {
-    
+    methods: {
+        dynamic(){
+            this.$router.push('/dynamic')
+        }
+    },
 }
 </script>
 

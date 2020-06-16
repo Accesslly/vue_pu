@@ -7,7 +7,9 @@
         <p class="top-title">兼职实习</p>
         <img class="top-refresh" src="../../assets/image/刷新.png" alt="">
     </div>
-    <hr>  
+    <div class="xian">
+          <van-divider  :style="{ borderColor: '#b5b5b5' }" />
+             </div>
 
      <!-- 选择 -->
     <div class="choose">
