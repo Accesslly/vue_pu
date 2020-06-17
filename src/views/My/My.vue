@@ -98,7 +98,7 @@
         <p class="work-title">我的职场</p>
         <van-divider />
         <div class="work-features">
-            <div class="work-train">
+            <div class="work-train" @click="train">
                 <div class="work-bg">
                     <img class="work-image" src="../../assets/image/培训考试.png" alt="">
                 </div>
@@ -144,6 +144,9 @@ export default {
       },
       person(){
           this.$router.push("/person")
+      },
+      train(){
+          this.$router.push('/training')
       }
   }
 }

@@ -131,6 +131,11 @@ Vue.use(VueRouter)
       name:'Dynamic',
       component: () => import('../views/Square/Dynamic.vue'),
     },
+    {
+      path:'/training',
+      name:'Training',
+      component: () => import('../views/My/Training.vue'),
+    },
 ];
 
 const router = new VueRouter({
