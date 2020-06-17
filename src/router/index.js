@@ -141,6 +141,11 @@ Vue.use(VueRouter)
       name:'Discount',
       component: () => import('../views/My/Discount.vue'),
     },
+    {
+      path:'/list',
+      name:'List',
+      component: () => import('../views/My/List.vue'),
+    },
 ];
 
 const router = new VueRouter({

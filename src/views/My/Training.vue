@@ -14,9 +14,9 @@
 
     <div class="image">
         <van-swipe class="my-swipe" :autoplay="3000" indicator-color="white">
-            <van-swipe-item><img @click="survey" src="../../assets/image/培训轮播1.png" alt=""></van-swipe-item>
+            <van-swipe-item><img @click="list" src="../../assets/image/培训轮播1.png" alt=""></van-swipe-item>
             <van-swipe-item><img src="../../assets/image/培训轮播2.png" alt=""></van-swipe-item>
-            <van-swipe-item><img @click="punch" src="../../assets/image/培训轮播3.png" alt=""></van-swipe-item>
+            <van-swipe-item><img src="../../assets/image/培训轮播3.png" alt=""></van-swipe-item>
         </van-swipe>
     </div>
 
@@ -82,6 +82,9 @@ export default {
         },
         discount(){
             this.$router.push('/discount')
+        },
+        list(){
+            this.$router.push('/list')
         }
     },
 }
