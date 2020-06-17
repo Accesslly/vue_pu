@@ -21,7 +21,7 @@
     </div>
 
     <div class="border">
-        <div class="border-left">
+        <div class="border-left" @click="discount">
             <div>
                 <p class="discount-title">折扣专区</p>
                 <p class="discount-title1">Discount of charge</p>
@@ -79,6 +79,9 @@ export default {
     methods: {
         back(){
             this.$router.push('/my')
+        },
+        discount(){
+            this.$router.push('/discount')
         }
     },
 }
