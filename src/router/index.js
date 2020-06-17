@@ -146,6 +146,11 @@ Vue.use(VueRouter)
       name:'List',
       component: () => import('../views/My/List.vue'),
     },
+    {
+      path:'/service',
+      name:'Service',
+      component: () => import('../views/My/Service.vue'),
+    },
 ];
 
 const router = new VueRouter({

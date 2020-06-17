@@ -126,7 +126,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 220px;
+    margin-left: 260px;
 }
 .person-more{
     color: #bfbfbf;
@@ -146,7 +146,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 220px;
+    margin-left: 260px;
 }
 .password-more{
     color: #bfbfbf;
@@ -166,7 +166,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 170px;
+    margin-left: 210px;
 }
 .phone-more{
     color: #bfbfbf;
@@ -186,7 +186,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 150px;
+    margin-left: 195px;
 }
 .other-more{
     color: #bfbfbf;
@@ -215,7 +215,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 220px;
+    margin-left: 260px;
 }
 .privacy-more{
     color: #bfbfbf;
@@ -235,7 +235,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 220px;
+    margin-left: 260px;
 }
 .clear-more{
     color: #bfbfbf;
@@ -255,7 +255,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 250px;
+    margin-left: 290px;
 }
 .about-more{
     color: #bfbfbf;
@@ -275,7 +275,7 @@ export default {
     font-size: 13px;
     color: #bfbfbf;
     margin-top: 10px;
-    margin-left: 225px;
+    margin-left: 260px;
 }
 .update-more{
     color: #bfbfbf;

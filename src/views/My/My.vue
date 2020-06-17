@@ -84,7 +84,7 @@
                 </div>
                 <p class="pu-label-text">标签</p>
             </div>
-            <div class="pu-service">
+            <div class="pu-service" @click="service">
                 <div class="pu-service-bg">
                     <img class="pu-service-image" src="../../assets/image/客服.png" alt="">
                 </div>
@@ -147,6 +147,9 @@ export default {
       },
       train(){
           this.$router.push('/training')
+      },
+      service(){
+          this.$router.push('/service')
       }
   }
 }
