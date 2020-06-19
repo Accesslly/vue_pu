@@ -84,7 +84,7 @@
              <p class="bottom1-title">收藏</p>
          </div>
          <div class="bottom2">
-             <img class="bottom2-icon" src="../../assets/image/分享.png" alt="">
+             <img class="bottom2-icon" src="../../assets/image/分享1.png" alt="">
              <p class="bottom2-title">分享</p>
          </div>
          <div class="bottom3"></div>
@@ -303,6 +303,7 @@ export default {
  }
  .bottom2{
      margin-left: 30px;
+     margin-top: 5px;
  }
  .bottom2-icon{
      margin-top: 10px;
