@@ -46,7 +46,7 @@
                 </div>
                 <p class="pu-collect-text">收藏</p>
             </div>
-            <div class="pu-tribe">
+            <div class="pu-tribe" @click="join">
                 <div class="pu-tribe-bg">
                     <img class="pu-tribe-image" src="../../assets/image/30创建部落.png" alt="">
                 </div>
@@ -153,6 +153,9 @@ export default {
       },
       resume(){
           this.$router.push('/resume')
+      },
+      join(){
+          this.$router.push('/join')
       }
   }
 }

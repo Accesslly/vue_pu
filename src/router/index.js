@@ -161,6 +161,11 @@ Vue.use(VueRouter)
       name:'CreateResume',
       component: () => import('../views/My/CreateResume.vue'),
     },
+    {
+      path:'/join',
+      name:'Join',
+      component: () => import('../views/My/Join.vue'),
+    },
 ];
 
 const router = new VueRouter({
