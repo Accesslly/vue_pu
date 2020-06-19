@@ -10,7 +10,7 @@
 
     <div class="bg"></div>   
     
-    <div class="information">
+    <div class="information" @click="create">
         <div class="information1">
             <p class="information1-title">15195924611</p>
             <p class="information1-title1">修改账户资料></p>
@@ -97,6 +97,9 @@ export default {
     methods: {
         back(){
             this.$router.push('/my')
+        },
+        create(){
+            this.$router.push('/createresume')
         }
     },
 }
