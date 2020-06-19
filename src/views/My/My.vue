@@ -110,7 +110,7 @@
                 </div>
                 <p class="work-text1">测评</p>
             </div>
-             <div class="work-resume">
+             <div class="work-resume" @click="resume">
                 <div class="work-bg2">
                     <img class="work-image2" src="../../assets/image/简历.png" alt="">
                 </div>
@@ -150,6 +150,9 @@ export default {
       },
       service(){
           this.$router.push('/service')
+      },
+      resume(){
+          this.$router.push('/resume')
       }
   }
 }

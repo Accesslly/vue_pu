@@ -151,6 +151,11 @@ Vue.use(VueRouter)
       name:'Service',
       component: () => import('../views/My/Service.vue'),
     },
+    {
+      path:'/resume',
+      name:'Resume',
+      component: () => import('../views/My/Resume.vue'),
+    },
 ];
 
 const router = new VueRouter({
