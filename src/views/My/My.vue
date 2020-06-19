@@ -11,9 +11,24 @@
             <van-image @click="person" round width="60px" height="60px" src="https://img.yzcdn.cn/vant/cat.jpeg"/>
             <p class="person-name">张三_1802783112</p>
             <p class="person-number">UID:9147786</p>
-            <img src="../../assets/image/fen.png" alt="">
+            <!-- <img src="../../assets/image/fen.png" alt=""> -->
         </div>
     </div>  
+
+    <div class="fraction">
+        <div class="number">
+            <p class="number1">205.50</p>
+            <p class="number2">42</p>
+            <p class="number3">95%</p>
+            <p class="number4">258</p>
+        </div>
+        <div class="title">
+            <p class="title1">学分</p>
+            <p class="title2">积分</p>
+            <p class="title3">诚信度</p>
+            <p class="title4">PU豆</p>
+        </div>
+    </div>
 
     <!-- 我的财富 -->
     <div class="wealth">
@@ -198,8 +213,60 @@ export default {
      margin-top: -10px;
      color: #bfbfbf;
  }
+ .fraction{
+     width: 330px;
+     height: 70px;
+     margin-left: 20px;
+     margin-top: -30px;
+     background-color: #FFFFFF;
+     border-radius: 10px;
+     box-shadow:rgba(0,0,0,.3) 0px 0px 2px;
+ }
+ .number{
+     width: 330px;
+     display: flex;
+     height: 30px;
+ }
+ .number1{
+     margin-left: 30px;
+ }
+ .number2{
+     margin-left: 50px;
+ }
+ .number3{
+     margin-left: 50px;
+ }
+ .number4{
+     margin-left: 50px;
+ }
+ .title{
+     display: flex;
+     width: 330px;
+     height: 30px;
+ }
+ .title1{
+     font-size: 12px;
+     color: #bfbfbf;
+     margin-left: 40px;
+ }
+ .title2{
+     font-size: 12px;
+     color: #bfbfbf;
+     margin-left: 60px;
+ }
+ .title3{
+     font-size: 12px;
+     color: #bfbfbf;
+     margin-left: 45px;
+ }
+ .title4{
+     font-size: 12px;
+     color: #bfbfbf;
+     margin-left: 50px;
+ }
  .wealth{
      width: 100%;
+     margin-top: -30px;
      height: 120px;
  }
  .wealth-title{
