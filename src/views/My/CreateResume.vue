@@ -83,6 +83,7 @@ export default {
  .bg{
      width: 100%;
      height: 70px;
+     margin-top: 10px;
      display: flex;
      background-color: #49cdc2;
  } 
