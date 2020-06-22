@@ -3,7 +3,7 @@
     <!-- 返回   -->
     <div class="talk">
         <div class="talk-return">
-            <img @click="back" src="../../assets/image/返回.png" alt="返回">
+            <img @click="back" src="../../assets/image/实习返回.png" alt="返回">
         </div>
         <div class="talk-title">
             <p>私信</p>
@@ -36,7 +36,7 @@
     
     <!-- 发送信息 -->
     <div class="send">
-        <div class="send-input"><input type="text"></div>
+        <div class="send-input"></div>
         <div class="send-text"><p>发送</p></div>
     </div>
 </div>
@@ -60,12 +60,12 @@ export default {
     display: flex;
 }
 .talk-return{
-    margin-left: -10px;
-    margin-top: 6px;
+    margin-left: -5px;
+    margin-top: 10px;
 }
 .talk-title{
     margin-top: -4px;
-    margin-left: 125px;
+    margin-left: 130px;
 }
 .chat{
     width: 100%;
@@ -140,10 +140,12 @@ export default {
 .send-input{
     margin-left: 5px;
     margin-top: 5px;
+    width: 310px;
+    border: 1px #e4e4e6 solid;
 }
 .send-text{
     color: #fd9d3e;
     margin-left: 15px;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 </style>

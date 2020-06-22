@@ -12,7 +12,7 @@
              </div>
     <!-- 职位详情 -->
     <div class="choose">
-        <img @click="back" src="../../assets/image/返回.png" alt="">
+        <img @click="back" src="../../assets/image/实习返回.png" alt="">
         <p class="choose-title">职位详情</p>
         <img class="choose-image" src="../../assets/image/更多资料.png" alt="">
     </div>
@@ -132,7 +132,7 @@ export default {
      display: flex;
  } 
  .choose-title{
-     margin-left: 115px;
+     margin-left: 127px;
      margin-top: 5px;
      font-weight: bold;
  }

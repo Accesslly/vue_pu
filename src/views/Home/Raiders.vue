@@ -13,7 +13,7 @@
 
     <!-- 求职攻略     -->
     <div class="choose">
-        <img @click="back" src="../../assets/image/返回.png" alt="">
+        <img @click="back" src="../../assets/image/实习返回.png" alt="">
         <p class="choose-title">求职攻略</p>
         <img class="choose-image" src="../../assets/image/更多资料.png" alt="">
     </div>

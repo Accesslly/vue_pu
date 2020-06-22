@@ -14,9 +14,26 @@
     <p class="star">明星部落榜</p>
     <div class="bigd">
     <div class="star-image">
-        <img src="../../assets/image/top1.png" alt="">
-        <img src="../../assets/image/top2.png" alt="">
-        <img src="../../assets/image/top3.png" alt="">
+        <div class="star1">
+            <p class="star1-title">TOP1</p>
+            <img src="../../assets/image/校团委.png" alt="">
+            <p class="star1-title1">苏信校团委</p>
+            <p class="star1-title2">校级部落</p>
+        </div>
+
+        <div class="star2">
+            <p class="star2-title">TOP2</p>
+            <img src="../../assets/image/泽园书院.png" alt="">
+            <p class="star2-title1">苏信校团委</p>
+            <p class="star2-title2">校级部落</p>
+        </div>
+
+        <div class="star3">
+            <p class="star3-title">TOP3</p>
+            <img src="../../assets/image/沁园志愿者.png" alt="">
+            <p class="star3-title1">苏信校团委</p>
+            <p class="star3-title2">校级部落</p>
+        </div>
     </div>
     </div>
 
@@ -169,10 +186,76 @@ export default {
  .star-image{
     height: 150px;
     box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
-    width: 300px;
+    width: 400px;
     margin-left: 10px;
     float: left;
     display: flex;
+ }
+ .star1{
+     margin-top: 5px;
+     margin-left: 15px;
+     width: 110px;
+     height: 130px;
+     box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
+ }
+ .star1-title{
+     color: #f5989a;
+     font-size: 12px;
+     margin-left: 70px;
+     margin-top: 5px;
+ }
+ .star1-title1{
+     font-size: 12px;
+     margin-top: 0px;
+     font-weight: bold;
+ }
+ .star1-title2{
+     font-size: 12px;
+     margin-top: -10px;
+ }
+ .star2{
+     margin-top: 5px;
+     margin-left: 15px;
+     width: 110px;
+     height: 130px;
+     box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
+ }
+ .star2-title{
+     color: #f5989a;
+     font-size: 12px;
+     margin-left: 70px;
+     margin-top: 5px;
+ }
+ .star2-title1{
+     font-size: 12px;
+     margin-top: 10px;
+     font-weight: bold;
+ }
+ .star2-title2{
+     font-size: 12px;
+     margin-top: -10px;
+ }
+ .star3{
+     margin-top: 5px;
+     margin-left: 15px;
+     width: 110px;
+     height: 130px;
+     box-shadow:rgba(0,0,0,.1) 0px 0px 2px;
+ }
+ .star3-title{
+     color: #f5989a;
+     font-size: 12px;
+     margin-left: 70px;
+     margin-top: 5px;
+ }
+ .star3-title1{
+     font-size: 12px;
+     margin-top: 10px;
+     font-weight: bold;
+ }
+ .star3-title2{
+     font-size: 12px;
+     margin-top: -10px;
  }
  .schoolactivity{
     width: 330px;

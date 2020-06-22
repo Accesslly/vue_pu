@@ -58,11 +58,11 @@ export default {
  } 
  .top-title{
      font-weight: bold;
-     margin-left: 70px;
+     margin-left: 60px;
      margin-top: 15px;
  }
  .top-refresh{
-     margin-left: 60px;
+     margin-left: 70px;
      margin-top: 15px;
  }
  .bg{
