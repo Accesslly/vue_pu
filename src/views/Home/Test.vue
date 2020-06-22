@@ -1,12 +1,12 @@
 <template>
 <div>   
-     <!-- 顶部     -->
+    <!-- 顶部     -->
     <div class="top">
-        <img class="top-return" @click="back" src="../../assets/image/返回.png" alt="">
-        <img class="top-close" src="../../assets/image/关闭.png" alt="">
-        <p class="top-title">端午节小知识测试</p>
-        <img class="top-refresh" src="../../assets/image/刷新.png" alt="">
-    </div>  
+        <div><img class="top-return" @click="back" src="../../assets/image/实习返回.png" alt=""></div>
+        <div><img class="top-close" src="../../assets/image/实习关闭.png" alt=""></div> 
+        <p class="top-title">端午节小测试</p>
+        <div><img class="top-refresh" src="../../assets/image/实习刷新.png" alt=""></div>
+    </div>
 
     <!-- 图片  -->
     <img class="image" src="../../assets/image/端午节.png" alt="">
@@ -67,17 +67,17 @@ export default {
  } 
  .top-close{
      margin-left: 20px;
-     margin-top: 20px;
+     margin-top: 15px;
  } 
  .top-title{
      font-weight: bold;
-     margin-left: 55px;
+     margin-left: 60px;
      margin-top: 15px;
  }
  .top-refresh{
-     margin-left: 80px;
-     margin-top: 20px;
- }    
+     margin-left: 110px;
+     margin-top: 15px;
+ }  
  .image{
      margin-top: 10px;
  }

@@ -2,12 +2,12 @@
 <div>  
       <!-- 顶部     -->
     <div class="top">
-        <img class="top-return" @click="back" src="../../assets/image/返回.png" alt="">
-        <img class="top-close" src="../../assets/image/关闭.png" alt="">
+        <div><img class="top-return" @click="back" src="../../assets/image/实习返回.png" alt=""></div>
+        <div><img class="top-close" src="../../assets/image/实习关闭.png" alt=""></div> 
         <p class="top-title">兼职实习</p>
-        <img class="top-refresh" src="../../assets/image/刷新.png" alt="">
-    </div>    
-     <div class="xian">
+        <div><img class="top-refresh" src="../../assets/image/实习刷新.png" alt=""></div>
+    </div>
+    <div class="xian">
           <van-divider  :style="{ borderColor: '#b5b5b5' }" />
              </div>
 
@@ -55,7 +55,7 @@ export default {
  } 
  .top-close{
      margin-left: 20px;
-     margin-top: 20px;
+     margin-top: 15px;
  } 
  .top-title{
      font-weight: bold;
@@ -64,8 +64,8 @@ export default {
  }
  .top-refresh{
      margin-left: 120px;
-     margin-top: 20px;
- }   
+     margin-top: 15px;
+ }
   .choose{
      width: 100%;
      height: 30px;

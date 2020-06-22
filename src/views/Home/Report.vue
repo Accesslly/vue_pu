@@ -1,12 +1,12 @@
 <template>
 <div>  
-     <!-- 顶部     -->
+   <!-- 顶部     -->
     <div class="top">
-        <img class="top-return" @click="back" src="../../assets/image/返回.png" alt="">
-        <img class="top-close" src="../../assets/image/关闭.png" alt="">
+        <div><img class="top-return" @click="back" src="../../assets/image/实习返回.png" alt=""></div>
+        <div><img class="top-close" src="../../assets/image/实习关闭.png" alt=""></div> 
         <p class="top-title">举报</p>
-        <img class="top-refresh" src="../../assets/image/刷新.png" alt="">
-    </div> 
+        <div><img class="top-refresh" src="../../assets/image/实习刷新.png" alt=""></div>
+    </div>
 
     <!-- 举报     -->
     <div class="title">
@@ -50,7 +50,7 @@ export default {
  } 
  .top-close{
      margin-left: 20px;
-     margin-top: 20px;
+     margin-top: 15px;
  } 
  .top-title{
      font-weight: bold;
@@ -58,9 +58,9 @@ export default {
      margin-top: 15px;
  }
  .top-refresh{
-     margin-left: 120px;
-     margin-top: 20px;
- }   
+     margin-left: 140px;
+     margin-top: 15px;
+ }
  .title{
      width: 100%;
      height: 50px;

@@ -3,7 +3,7 @@
     <!-- 顶部     -->
     <div class="top">
     <div class="nav">
-        <img @click="back" class="nav-return" src="../../assets/image/返回.png" alt="">
+        <img @click="back" class="nav-return" src="../../assets/image/实习返回.png" alt="">
         <p class="nav-title">设置</p>
     </div>
    <div class="xian">

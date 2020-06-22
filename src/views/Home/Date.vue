@@ -2,7 +2,7 @@
 <div>  
      <!-- 顶部     -->
     <div class="top">
-        <img class="top-return" @click="back" src="../../assets/image/返回.png" alt="">
+        <img class="top-return" @click="back" src="../../assets/image/实习返回.png" alt="">
         <p class="top-title">活动日历</p>
     </div>
     <div class="xian">
@@ -82,7 +82,7 @@ export default {
  } 
  .top-title{
      font-weight: bold;
-     margin-left: 120px;
+     margin-left: 130px;
      margin-top: 15px;
  }
  .organization-bottom{

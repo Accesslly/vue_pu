@@ -5,7 +5,7 @@
         <!-- 搜索框 -->
         <div class="activity-search">
             <p class="activity-title">活动</p>
-            <img class="activity-icon" src="../../assets/image/活动搜索.png" alt="搜索">
+            <img class="activity-icon" src="../../assets/image/部落搜索.png" alt="搜索">
         </div>
         <!-- 图片 -->
         <div class="activity-image">

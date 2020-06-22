@@ -2,9 +2,9 @@
 <div>   
      <!-- 顶部     -->
     <div class="top">
-        <img class="top-return" @click="back" src="../../assets/image/返回.png" alt="">
+        <img class="top-return" @click="back" src="../../assets/image/实习返回.png" alt="">
         <p class="top-title">部落</p>
-        <img class="top-refresh" src="../../assets/image/搜索2.png" alt="">
+        <img class="top-refresh" src="../../assets/image/部落搜索.png" alt="">
     </div>
     <div class="xian">
           <van-divider  :style="{ borderColor: '#b5b5b5' }" />
